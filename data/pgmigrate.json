@@ -1,0 +1,7 @@
+{
+	"dbHost": "localhost",
+	"dbName": "addressbook",
+	"dbUsername": "postgres",
+	"dbPassword": "pass",
+	"migrationTableName": "changelog"
+}
