@@ -20,7 +20,7 @@ gulp.task("buildjs",function(){
 });
 
 gulp.task("watch", function(){
-	return gulp.watch("jsx/**/*.jsx", ["compilejsx"])
+	return gulp.watch("./**", ["compilejsx"])
 })
 
 gulp.task("default", ["watch"])
